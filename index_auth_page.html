@@ -1,0 +1,55 @@
+ <!DOCTYPE html>
+ <html>
+ 	<head>
+ 		<meta charset="utf-8">
+ 		<title>Log In</title>
+		 <script src="https://www.gstatic.com/firebasejs/5.9.3/firebase.js"></script>
+		 <link rel="stylesheet" href="./styles/styles.css">
+ 	</head>
+ 	<body>
+
+            <button class="tablink" onmouseout="this.style.opacity=1;" onmouseover="this.style.opacity=0.6;" 
+                onclick="window.location='index.html'" title="Go Home"><img src="logo.png" height="50"></button>
+            <button class="tablink" onclick="window.location='about.html'" title="About Us">ABOUT</button>
+			<button class="tablink" onclick="window.location='community.html'" title="My Haven">MY COMMUNITY</button>
+            <button class="tablink" onclick="window.location='signup.html'" title="Sign Up" style="float:right">SIGN UP</button>
+            <button class="tablink" onclick="window.location='index_auth_page.html'" title="Log In"
+                style="float:right">LOGIN</button>
+
+		<div style="height:100px;"></div>
+
+		<h1 class="exo center" style="margin-bottom: 35px;">Login to or Sign Up for a Haven Account<br></h1>
+
+
+ 		<div id="container" class="center onescreen" style="display:block; width: 400px;">
+
+
+
+ 			<input id="txtEmail" type="email" placeholder="Email" style="display:block" class="logintbox center">
+
+ 			<input id="txtPassword" type="password" placeholder="Password" style="display:block"  class="logintbox center">
+
+ 			<button id="btnLogin" class="littlebutton center"  style="display:block">
+ 				  Log in
+ 			</button>
+
+ 			<button id="btnSignUp" class="littlebutton center" style="display:block">
+				   Sign up
+				   
+
+ 			</button>
+
+ 			<button id="btnLogout" class="littlebutton center" style="display:block">
+ 				Log out
+ 			</button>
+ 		</div>
+
+
+		 <footer class="foot">Haven - Community Support Webapp<br>Created for HackTJ 2019 by Param Damle,
+            Vishnu Maddipatla, Addison Phelps, and Ronith Ranjan<br>
+            <a href="about.html" class="exo" style="font-size:20px;">Learn more about us</a></footer>
+
+ 		<script src="app.js"></script>
+
+ 	</body>
+ </html> 
